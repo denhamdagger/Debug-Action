@@ -5,5 +5,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: denhamdagger/debug-action@v2
+    - uses: denhamdagger/debug-action@main
     
