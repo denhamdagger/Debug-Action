@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 console.log("::group::Environment variables")
-for (const[key, value] of Object.entries(process.env).sort()) {
+for (const [key, value] of Object.entries(process.env).sort()) {
   console.log('${key} = ${value}');
 }
 console.log("::endgroup::");
